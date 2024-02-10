@@ -44,3 +44,25 @@ body {
     padding: 8px;
     box-sizing: border-box;
 }
+
+.total {
+    font-size: small;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    background-color: #ff5959;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#all,
+#completed,
+#uncompleted {
+    cursor: pointer;
+}
