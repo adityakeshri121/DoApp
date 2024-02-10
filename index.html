@@ -4,31 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo List</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main>
-        <h1>Todo List</h1>
-        <div>
-            <input id='taskName' type="text">
-            <button id="addTaskBtn">+</button>
-            <div>
-                <span>Clear all task</span>
-                <span>Clear Completed task</span>
-            </div>
 
-            <div id="allTasksElem">
-                <!-- <input type="radio"> <span>Name of task</span> -->
-            </div>
+    <div id="todo-container">
+        <h2>Todo List</h2>
+        <ul id="todo-list"></ul>
+        <input type="text" id="add-todo" placeholder="Add a new todo">
+    </div>
 
-            <div id="totalTask">Total Tasks : </div>
-        </div>
-    </main>
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
+
 </body>
 
 </html>
